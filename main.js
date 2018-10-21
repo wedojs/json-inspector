@@ -8,7 +8,10 @@ let win
 
 function createWindow() {
     // Create the main browser window.
-    win = new BrowserWindow({ width: 800, height: 600, frame: false })
+    win = new BrowserWindow({ width: 1366, height: 768 })
+
+    // remove default menu
+    win.setMenu(null)
 
     // and load the index.html of the app.
     win.loadURL(url.format({
