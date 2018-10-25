@@ -4,14 +4,18 @@ import { NgModule } from '@angular/core';
 // Angular material related imports
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
-import { MatCheckboxModule } from '@angular/material/checkbox';
+
+// Electron imports
+import { NgxElectronModule } from 'ngx-electron';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { GlobalFooterComponent } from './global-footer/global-footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GlobalFooterComponent
   ],
   imports: [
     BrowserModule,
@@ -20,7 +24,9 @@ import { AppComponent } from './app.component';
     // Angular material related imports
     BrowserAnimationsModule,
     MatButtonModule,
-    MatCheckboxModule
+
+    // Electron related imports
+    NgxElectronModule
   ],
   providers: [],
   bootstrap: [AppComponent]
