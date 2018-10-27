@@ -3,9 +3,6 @@
 /* Importing a global font-family of Roboto */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-/* Angular material color scheme import */
-@import '~@angular/material/prebuilt-themes/indigo-pink.css';
-
 html,
 body {
     margin: 0;

@@ -17,6 +17,6 @@ npm run package-win
 ```
 This will create a folder in the project directory called 'release-builds'.
 
-Other package scripts have been added but not implemented.
+Other package scripts have not been implemented.
 Please feel free to make changes in the scripts and submit PRs.
 Happy to accept any contribution from your end.
