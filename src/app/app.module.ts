@@ -10,6 +10,7 @@ import { TabbedNavbarComponent } from './components/main/tabbed-navbar/tabbed-na
 import { SubappSelectorComponent } from './components/main/subapp-selector/subapp-selector.component';
 import { MainComponent } from './components/main/main.component';
 import { JsonViewerComponent } from './components/main/json-viewer/json-viewer.component';
+import { GlobalFooterComponent } from './components/main/global-footer/global-footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { JsonViewerComponent } from './components/main/json-viewer/json-viewer.c
     TabbedNavbarComponent,
     SubappSelectorComponent,
     MainComponent,
-    JsonViewerComponent
+    JsonViewerComponent,
+    GlobalFooterComponent
   ],
   imports: [
     BrowserModule,

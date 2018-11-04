@@ -6,6 +6,8 @@ import { BehaviorSubject } from 'rxjs';
 })
 export class CommonService {
 
-  githubProfileUrl: string = "https://github.com/itsSayantan"
-  projectGithubUrl: string = "https://github.com/itsSayantan/json-inspector"
+  sayantanGithubUrl: string = "https://github.com/itsSayantan"
+  projectGithubPageUrl: string = "https://github.com/itsSayantan/json-inspector"
+  downloadPageUrl: string = "https://github.com/itsSayantan/json-inspector"
+  aboutPageUrl: string = "https://github.com/itsSayantan/json-inspector#json-inspector"
 }

@@ -1,0 +1,45 @@
+.global-footer-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 44px;
+    background: #111222;
+}
+
+.made-in-and-by {
+    position: absolute;
+    top: 13px;
+    margin-left: 10px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.github-profile-url {
+    color: #5283a3;
+    font-weight: bold;
+}
+
+.right-area {
+    position: relative;
+    float: right;
+    margin-top: 13px;
+    margin-right: 10px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.right-area * {
+    margin-left: 10px;
+}
+
+.right-area *:not(.bullet-mark) {
+    cursor: pointer;
+    color: #5283a3;
+}
+
+.bullet-mark::before {
+    content: "\2022"; /* 2022 is the hex code for &bull; Bullet HTML entity */
+}

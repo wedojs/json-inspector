@@ -2,7 +2,7 @@
   <div class="tab-group">
     <span *ngFor="let tab of tabs" [class]="tab.tabClass">
       <span class="tab-text">{{ tab.tabText }}</span>
-      <span class="close-tab-button" (click)="alert(tab.tabID)"></span>
+      <span class="close-tab-button" (click)="deleteTab(tab.tabID)"></span>
     </span>
   </div>
 </div>
