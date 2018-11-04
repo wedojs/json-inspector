@@ -1,12 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-
-import { JsonViewerComponent } from './json-viewer/json-viewer.component';
-import { JsonDiffComponent } from './json-diff/json-diff.component';
+import { JsonViewerComponent } from './components/main/json-viewer/json-viewer.component';
 
 const routes: Routes = [
-  { path: "json-viewer", component: JsonViewerComponent },
-  { path: "json-diff", component: JsonDiffComponent }
+  {path: "viewer", component: JsonViewerComponent}
 ];
 
 @NgModule({

@@ -1,0 +1,8 @@
+<div class="tabbed-navbar-wrapper disable-text-selection">
+  <div class="tab-group">
+    <span *ngFor="let tab of tabs" [class]="tab.tabClass">
+      <span class="tab-text">{{ tab.tabText }}</span>
+      <span class="close-tab-button" (click)="alert(tab.tabID)"></span>
+    </span>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+.json-viewer-wrapper {
+    position: absolute;
+    top: 45px;
+    left: 5px;
+    width: calc(100% - 10px);
+    height: calc(100% - 90px); /* 45px top and 45px bottom bar */
+    background: #111222;
+}

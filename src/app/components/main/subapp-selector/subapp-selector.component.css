@@ -1,0 +1,21 @@
+.subapp-selector-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 40px;
+    background: #444555;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.subapp-select {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    max-width: 120px;
+    background: #111222;
+    color: #fff;
+    height: 30px;
+    padding: 0 10px;
+}

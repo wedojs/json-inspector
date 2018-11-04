@@ -6,16 +6,18 @@ import { NgxElectronModule } from 'ngx-electron';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { GlobalFooterComponent } from './global-footer/global-footer.component';
-import { JsonViewerComponent } from './json-viewer/json-viewer.component';
-import { JsonDiffComponent } from './json-diff/json-diff.component';
+import { TabbedNavbarComponent } from './components/main/tabbed-navbar/tabbed-navbar.component';
+import { SubappSelectorComponent } from './components/main/subapp-selector/subapp-selector.component';
+import { MainComponent } from './components/main/main.component';
+import { JsonViewerComponent } from './components/main/json-viewer/json-viewer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GlobalFooterComponent,
-    JsonViewerComponent,
-    JsonDiffComponent
+    TabbedNavbarComponent,
+    SubappSelectorComponent,
+    MainComponent,
+    JsonViewerComponent
   ],
   imports: [
     BrowserModule,
